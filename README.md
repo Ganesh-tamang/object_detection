@@ -5,10 +5,12 @@
 Clone repo and install requirements.txt
 
 ```bash
-git clone 
+git clone git@github.com:Ganesh-tamang/object_detection.git
+cd object_detection
+
 conda create -n detectron python=3.10
 conda activate detectron
-cd 
+
 pip install -r requirements.txt  # install
 ```
 
