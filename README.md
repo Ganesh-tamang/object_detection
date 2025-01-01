@@ -29,5 +29,5 @@ python api.py
 ```
 ## Request
 ```bash
-curl --request POST 'http://localhost:5000/predict' --form 'image=@./training_dataset/train/images/000000095_jpg.rf.5765799a16d4712761cd7dd423be1e03.jpg'
+curl --request POST 'http://localhost:5000/predict' --form 'image=@<image_path>'
 ```
